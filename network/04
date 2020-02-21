@@ -1,0 +1,5 @@
+//Permet d'examiner l'etat actuel des connexion reseau et internet//
+// -n : Affiches les adresses et numeros de ports au format numerique//
+// -r : Affiche la table de routage//
+
+netstat -nr | grep en0 | grep default | awk '{print $2}'

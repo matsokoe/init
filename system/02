@@ -1,0 +1,5 @@
+//01: Dans un premier temps etre en mode root
+//2: Car sinon nous n'avons pas les  permissions donc
+//3: Tapper "su root”
+
+hostname newname

@@ -1,0 +1,12 @@
+tail 		: Afficher la dernière partie d'un fichier.
+-f, --follow	: Boucler indéfiniment, en essayant de lire  de  plus
+		en plus de caractères à la fin du fichier, celui-ci
+		devant grandir. Cette option est ignorée si la lecture
+		se  fait  depuis un tube (pipe). Si plusieurs
+		fichiers d'entrée sont indiqués tail affiche un en-
+		tête  dès  qu'un  fichier est modifié, pour montrer
+		celui qui est imprimé.
+& 		:à la fin de la commande qu'on veut envoyer en arrière-plan
+
+
+tail -f var/log/syslog &

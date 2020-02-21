@@ -1,0 +1,2 @@
+//La commande df (disk free) permet d’afficher à l’écran la taille de l’espace disque occupée et la taille de l’espace disque libre ce n’est pas lisible, puisque la taille des données est affichée en octet. On utilise alors l’option -h (human-readable !)
+df -h

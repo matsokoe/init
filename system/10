@@ -1,0 +1,4 @@
+//lsblk permet d'afficher toutes les peripheries de blocs et nous permet de lister les disques durs(partitions) de la machine
+
+lsblk
+

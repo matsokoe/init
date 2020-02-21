@@ -1,0 +1,4 @@
+//h = affiche dans un format + lisible pour l’humain
+//s= donne la taille total d'un dossier
+
+du -hs /var/*

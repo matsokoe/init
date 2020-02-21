@@ -1,0 +1,3 @@
+//recepere le champs inet qui correspond a l'IP qui nous a ete assigne par le serveur DHCP.//
+
+ifconfig en0 | grep "inet " | awk '{print $2}'

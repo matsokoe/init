@@ -1,0 +1,3 @@
+// 8.8.8.8 = le DNS Public de Google
+
+nslookup slash16.org 8.8.8.8

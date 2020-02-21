@@ -1,0 +1,4 @@
+// nslookup trouve l'adresse ip | grep selectionne les Addresse | -v lignes qui ne corresponde pas 
+//nslookup 42.fr | grep Address | grep -v "#" | awk '{print $2}'
+163.172.250.13
+163.172.250.12

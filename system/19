@@ -1,0 +1,3 @@
+daemon ensemble de processus qui s'exécute en arrière-plan plutôt que sous le contrôle direct d'un utilisateur
+sudo service --status-all
+ps ax 

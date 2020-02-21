@@ -1,0 +1,11 @@
+This file stores local accounts information of the system. It can be read by any users but is writable only by the super-user root. It contains some lines and uses colons (:) to separate the fields where each line represents a specific user.
+Username or login: The first field defines the username of the user to login. Only local users have entries in passwd file. It should be between 1 to 32 characters.
+Password (x): The second field identified by x character represents that the encrypted password is available in /etc/shadow file. The password file doesn’t include the password for security reasons (readable by everybody).
+User ID (UID): It represents the third field. Every user created in a Linux machine has a unique user ID which identify them on the system. The root user is always referenced by user ID 0. UID 1 to 99 are reserved for other predefined accounts while UID 100-999 are reserved by system for administrative and system accounts/groups. UIDs for new users on some Linux system start at 1000.
+Group ID (GID): It represents the fourth field. When a user is created using the command useradd, it will also create a primary group for the user in the same name as the username if you didn’t explicitly mention any group name. It represents the unique ID given for the primary group to which the user belongs to. A single user can be a member of multiple groups which can be found from the file /etc/group but the passwd file will contain the information of the primary group only.
+User ID info or comment or description: The fifth field is a short comment/description/information of the user account. It allows you to add extra information about the users such as user’s full name, phone number, descriptions of the service the account was made for, etc.
+Home Directory: The sixth field represents the absolute path to the user's home directory when they log in. For regular users, this would usually be /home/username. For root, the home directory is /root.
+Shell: The seventh field is the absolute path of command or shell /bin/bash. Typically this field contain information about user's default shell.
+
+
+cat /etc/passwd | cut -d : -f1,3,6 | sed 's/://g'

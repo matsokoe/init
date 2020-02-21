@@ -1,0 +1,6 @@
+//ifconfig en1 : permet d'afficher les interfaces reseaux Airport (wifi)//
+//grep ether : permet de selectionner uniquement la partie ether//
+//awk '{print $2}' : permet d'afficher uniquement le deuxieme champ//
+// Recupere donc bien l'adresse MAC de la carte WIFI//
+
+ifconfig en1 | grep ether | awk '{print $2}' 

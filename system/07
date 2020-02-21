@@ -1,0 +1,4 @@
+//Afin de recuperer le PID du service ssh
+
+
+systemctl status ssh | grep PID | awk '{print $3}'

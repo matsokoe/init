@@ -1,0 +1,2 @@
+//ps permet d'obtenir la liste des processus qui tournent au moment où on lance la commande. Cette liste n'est pas actualisée en temps réel, contrairement à ce que fait top
+top

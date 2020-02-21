@@ -1,0 +1,9 @@
+Il faut modifier le fichier /etc/hosts et il faut donc faire pointer	  intra.42.fr sur l'adresse 46.19.122.85
+
+On aurait donc quelque chose comme ci :
+
+10.51.1.6       cdn.42.fr
+46.19.122.85      cdn.intra.42.fr
+127.0.0.1       localhost
+255.255.255.255 broadcasthost
+::1             localhost

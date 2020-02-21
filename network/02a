@@ -1,0 +1,5 @@
+//ifconfig en0 : permet d'afficher les interfaces reseau de l'ethernet cable(en0)
+//grep broadcats : permet de rechercher la chaine de caractere "broadcast”
+//awk '{}' : permet de recuperer l'info de la colonne 6e colonne (adresse de broadcast)
+
+ifconfig en0 | grep broadcast | awk '{print $6}'

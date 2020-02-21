@@ -1,0 +1,8 @@
+//ifconfig affiche/ configure les interfaces actuellement dispo 
+// grep selectionne 
+//UP vraies interfaces avec inet pour adresse locale
+//cut -d : selectionne des colonnes ou champs //
+//-d : delimite
+//f1 : selectionne uniquement le champ 1
+
+ifconfig -a | grep UP | cut -d : -f1

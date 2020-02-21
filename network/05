@@ -1,0 +1,5 @@
+//NameServeurLookUp//
+//Permet de trouver l'adresse IP ou un nom de domaine specifique (DNS)//
+//Ici, on reprend l'adresse IP//
+
+ nslookup slash16.org | grep Server: | awk '{print $2}'

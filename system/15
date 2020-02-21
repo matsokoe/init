@@ -1,0 +1,4 @@
+//“pkill” permet d'envoyer un signal (défaut “SIGTERM”) à un ou plusieurs processus, en 
+//fonction de leurs noms ou de leurs pid et le p pour tuer le tail specifiquement
+
+pkill tail

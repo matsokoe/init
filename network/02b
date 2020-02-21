@@ -1,0 +1,5 @@
+// adresses IP attribues dans notre reseau
+//Adress Resolution Protocol//
+//arp -a : permet d'afficher les IP qui sont dans les memes sous reseau//
+
+arp -a

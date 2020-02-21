@@ -1,0 +1,3 @@
+//nous donne l'etat du service du ssh : Active(running) ou Desactive//
+
+systemctl status sshd

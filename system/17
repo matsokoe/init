@@ -1,0 +1,3 @@
+sudo su actif le mode sudo
+sudo service ssh start (demarre et stop arrete)
+sudo service--status-all

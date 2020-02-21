@@ -1,0 +1,6 @@
+//on fait donc le ifconfig en0 | grep "inet " | awk '{print $2}' on obtient 10.1.5.3
+// nslookup 10.1.5.3 | grep name | awk '{print $4}'
+
+//MON IMAC:
+
+w-r5-p3.s19.be.
